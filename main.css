@@ -121,7 +121,7 @@ body {
 }
 @media only screen and (max-width:600px) {
   .hero__userchange {
-    width: 100px;
+    width: 150px;
   }
   .hero__list {
     align-items: center;
@@ -129,7 +129,7 @@ body {
     flex-direction: column;
   }
   .hero__item {
-    padding: 20px;
+    padding: 10px;
     width: 200px;
     height: 200px;
   }
