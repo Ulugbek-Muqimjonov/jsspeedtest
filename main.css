@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(#0000ff, #ffff00, #ff0000);
+}
+.site-main {
+  flex-grow: 1;
+}
+.container {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.hero__form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+.hero__form {
+  display: flex;
+  column-gap: 50px;
+  margin-bottom: 100px;
+}
+.hero__userchange {
+  padding: 12px 10px;
+  width: 200px;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+.hero__btn {
+  width: 80px;
+  text-align: center;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4d884d;
+  color: #fff;
+}
+.hero__list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  column-gap: 50px;
+  justify-content: space-between;
+}
+.hero__item {
+  width: 200px;
+  height: 210px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+.hero__list-bold {
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 19px;
+}
+.hero__list-bold::before {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px;
+  background-image: url(./images/boy.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+}
+.hero__list-bold--two::before {
+  background-image: url(./images/bike.png);
+}
+.hero__list-bold--three::before {
+  background-image: url(./images/car.png);
+}
+.hero__list-bold--four::before {
+  background-image: url(./images/plane.png);
+}
+.desc {
+  margin: 0;
+  text-align: center;
+}
