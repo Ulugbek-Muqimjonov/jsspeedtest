@@ -9,7 +9,8 @@ body {
   flex-direction: column;
   margin: 0;
   font-family: sans-serif;
-  background: linear-gradient(#0000ff, #ffff00, #ff0000);
+  /* background: linear-gradient(#0000ff, #ffff00, #ff0000); */
+  background-color: gray;
 }
 .site-main {
   flex-grow: 1;
